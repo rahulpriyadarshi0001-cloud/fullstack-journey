@@ -16,3 +16,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
+## About Me
+- Name: Rahul
+- Location: patna, Bihar, India
+- Goal: Full-stack developer in 60 days
+- Started: June 2026
