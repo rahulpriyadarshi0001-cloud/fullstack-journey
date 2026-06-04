@@ -1,4 +1,4 @@
-# My Full-Stack Journey 🚀
+# My Full-Stack Journey -Veersion A
 
 ## About
 I am learning full-stack web development from scratch using a 60-day structured curriculum.
