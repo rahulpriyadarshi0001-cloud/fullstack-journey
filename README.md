@@ -11,10 +11,11 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Deploy a full-stack app to production
 
 ## Progress
+## Progress
 - Day 1: ✅ Dev environment set up
 - Day 2: ✅ Git branching, PRs and merge conflicts
-- Day 3: 🔄 In progress...
-
+- Day 3: ✅ HTML5 semantic structure page built
+- Day 4: 🔄 In progress...
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me
