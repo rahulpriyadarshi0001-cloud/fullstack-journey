@@ -15,7 +15,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 1: ✅ Dev environment set up
 - Day 2: ✅ Git branching, PRs and merge conflicts
 - Day 3: ✅ HTML5 semantic structure page built
-- Day 4: 🔄 In progress...
+- Day 4: ✅ HTML contact form with labels, input types and validation
+- Day 5: 🔄 In progress...
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me
