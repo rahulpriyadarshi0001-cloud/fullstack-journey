@@ -11,7 +11,6 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Deploy a full-stack app to production
 
 ## Progress
-## Progress
 - Day 1: ✅ Dev environment set up
 - Day 2: ✅ Git branching, PRs and merge conflicts
 - Day 3: ✅ HTML5 semantic structure page built
