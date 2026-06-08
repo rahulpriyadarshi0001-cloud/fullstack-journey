@@ -16,7 +16,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 3: ✅ HTML5 semantic structure page built
 - Day 4: ✅ HTML contact form with labels, input types and validation
 - Day 5: ✅ CSS fundamentals - selectors, box model, colors and typography
-- Day 6: 🔄 In progress...
+- Day 6: ✅ CSS Flexbox - navbar, hero section and card row layout
+- Day 7: 🔃CSS Grid....
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me
