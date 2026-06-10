@@ -18,7 +18,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 5: ✅ CSS fundamentals - selectors, box model, colors and typography
 - Day 6: ✅ CSS Flexbox - navbar, hero section and card row layout
 - Day 7: ✅ CSS Grid - named template areas and responsive photo gallery
-- Day 8: 🔄 In progress...
+- Day 8: ✅ CSS animations - transitions, keyframes, loader and entrance effects
+- Day 9: 🔄 In progress...
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me

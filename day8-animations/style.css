@@ -1,0 +1,162 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body { font-family: 'Inter', sans-serif; background: #0f0f0f; color: #e0e0e0; }
+h2 { color: #A78BFA; margin-bottom: 24px; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  background: #1a1a2e;
+  border-bottom: 2px solid #F472B6;
+  position: sticky;
+  top: 0;
+}
+
+.logo { font-size: 20px; font-weight: 700; color: #F472B6; }
+.nav-links { display: flex; gap: 32px; list-style: none; }
+
+.nav-links a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s; 
+}
+.nav-links a:hover { color: #F472B6; }
+
+.hero {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.hero h1 { font-size: 3rem; color: #F472B6; margin-bottom: 16px; }
+.hero p { font-size: 1.2rem; color: #a0a0a0; margin-bottom: 32px; }
+.btn-group { display: flex; gap: 16px; justify-content: center; }
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease; 
+}
+
+.btn-primary { background: #F472B6; color: #000; }
+.btn-primary:hover {
+  background: #EC4899;
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 24px #F472B644; 
+}
+
+.btn-outline {
+  background: transparent;
+  color: #F472B6;
+  border-color: #F472B6;
+}
+
+.btn-outline:hover {
+  background: #F472B6;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+.cards-section { padding: 60px; }
+.cards { display: flex; gap: 24px; }
+
+.card {
+  flex: 1;
+  background: #1a1a2e;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: all 0.3s ease; 
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #F472B6;
+  box-shadow: 0 16px 40px #F472B622;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-icon {
+  transform: scale(1.3) rotate(10deg); /* icon spins on card hover! */
+}
+
+.card h3 { color: #F472B6; margin-bottom: 8px; }
+.card p { color: #a0a0a0; font-size: 14px; }
+
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%      { transform: scale(1.2); opacity: 0.6; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-16px); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px #F472B666; }
+  50%      { text-shadow: 0 0 24px #F472B6, 0 0 48px #F472B644; }
+}
+
+.logo {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.fade-in {
+  animation: fadeInUp 0.6s ease forwards;
+}
+.delay-1 { animation-delay: 0.2s; opacity: 0; }
+.delay-2 { animation-delay: 0.4s; opacity: 0; }
+
+.loader-section { padding: 60px; }
+.loaders {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.spinner {
+  width: 48px; height: 48px;
+  border: 4px solid #F472B622;
+  border-top-color: #F472B6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.pulse-dot {
+  width: 32px; height: 32px;
+  background: #A78BFA;
+  border-radius: 50%;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.bounce-ball {
+  width: 32px; height: 32px;
+  background: #34D399;
+  border-radius: 50%;
+  animation: bounce 0.8s ease-in-out infinite;
+}
