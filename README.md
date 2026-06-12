@@ -20,7 +20,7 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 7: ✅ CSS Grid - named template areas and responsive photo gallery
 - Day 8: ✅ CSS animations - transitions, keyframes, loader and entrance effects
 - Day 9: ✅ Typography system, color palette and CSS variables design system
-- Day 10: 🔄 In progress...
+- Day 10: ✅ Complete landing page - LIVE at incredible-lebkuchen-a78d66.netlify.app
 ## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me
