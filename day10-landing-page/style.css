@@ -166,3 +166,103 @@ main { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
   .hero h1 { font-size: 2rem; }
   .nav-links { gap: 16px; font-size: 14px; }
 }
+
+.menu-toggle {
+  display: none;
+}
+
+
+.hamburger {
+  display: none; 
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: var(--color-accent);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle:checked ~ .hamburger span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.menu-toggle:checked ~ .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle:checked ~ .hamburger span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 639px) {
+
+  /* Show hamburger, hide regular nav links */
+  .hamburger { display: flex; }
+
+  .nav-links {
+    display: none; /* hidden by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    padding: 20px;
+    gap: 16px;
+    border-bottom: 1px solid var(--color-border);
+  }
+  /* When checkbox is checked, SHOW the menu */
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  .navbar {
+    position: relative; /* so nav-links can be absolute to it */
+    padding: 16px 20px;
+  }
+
+  /* HERO — smaller text on mobile */
+  .hero { padding: 60px 20px; }
+  .hero h1 { font-size: 2rem; } /* was 3rem */
+  .hero p { font-size: 1rem; }
+  .hero-btns {
+    flex-direction: column; /* stack buttons vertically */
+    gap: 12px;
+  }
+  .btn { width: 100%; text-align: center; }
+
+  /* SECTIONS — less padding on mobile */
+  main { padding: 0 16px; }
+  .section { padding: 40px 0; }
+  .section-title { font-size: 1.5rem; } /* was 2rem */
+
+  /* PROJECTS — force single column on mobile */
+  .projects-grid {
+    grid-template-columns: 1fr; /* override auto-fit */
+  }
+
+  /* FOOTER — stack vertically on mobile */
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    padding: 24px 20px;
+  }
+
+  /* CONTACT FORM — full width button on mobile */
+  .contact-form button { width: 100%; }
+}
+
+/* ================================
+   TABLET BREAKPOINT — 640px to 1023px
+================================ */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+  .hero h1 { font-size: 2.5rem; }
+}
