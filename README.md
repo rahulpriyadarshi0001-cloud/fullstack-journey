@@ -22,8 +22,7 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 9: ✅ Typography system, color palette and CSS variables design system
 - Day 10: ✅ Complete landing page - LIVE at incredible-lebkuchen-a78d66.netlify.app
 - Day 11: ✅ Responsive design - media queries and mobile hamburger menu
-- Day 12: 🔄 In progress...
-## Tech Stack I'm Learning
+- Day 12: ✅ Tailwind CSS - Utility-first CSS, CDN setup, responsive layouts and hero section rebuild## Tech Stack I'm Learning
 HTML · CSS · JavaScript · React · Node.js · MongoDB
 ## About Me
 - Name: Rahul
