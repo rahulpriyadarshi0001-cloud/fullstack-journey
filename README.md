@@ -31,6 +31,3 @@ HTML · CSS · JavaScript · React · Node.js · MongoDB
 - Goal: Full-stack developer in 60 days
 - Started: June 2026
 
-test1
-test2
-test3
