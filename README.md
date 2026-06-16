@@ -23,7 +23,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 10: ✅ Complete landing page - LIVE at incredible-lebkuchen-a78d66.netlify.app
 - Day 11: ✅ Responsive design - media queries and mobile hamburger menu
 - Day 12: ✅ Tailwind CSS - Utility-first CSS, CDN setup
--Day 13: ✅ advanced git commands..
+
+- Day 13: ✅ advanced git commands..
 - Day 14: ✅ Tailwind Portfolio - Full landing page rebuild (zero CSS files)
 ## About Me
 - Name: Rahul
