@@ -28,6 +28,7 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 14: ✅ Tailwind Portfolio - Full landing page rebuild (zero CSS files)
 - Day 15: ✅ Production Deployment - Setup CI/CD pipeline with GitHub & Netlify
 - Day 16: ✅ JS Foundations - Variables (let/const), Data Types, and Basic Operators
+- Day 17: ✅ JS Power-Up - Arrow Functions, Map/Filter/Reduce, Destructuring, and Scope
 
 ## About Me
 - Name: Rahul
