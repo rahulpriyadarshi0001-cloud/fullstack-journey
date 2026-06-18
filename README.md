@@ -27,6 +27,8 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 13: ✅ advanced git commands..
 - Day 14: ✅ Tailwind Portfolio - Full landing page rebuild (zero CSS files)
 - Day 15: ✅ Production Deployment - Setup CI/CD pipeline with GitHub & Netlify
+- Day 16: ✅ JS Foundations - Variables (let/const), Data Types, and Basic Operators
+
 ## About Me
 - Name: Rahul
 - Location: patna, Bihar, India
