@@ -1,12 +1,12 @@
 console.log("Hello Rahul  kaise hai aap");
-const myName = "rahul";
+const Name = "rahul";
 const birthYear = 2006;
 
 let currentDay = 16;
 let mood = "excied";
 
 console.log("--- Initial Memory ---");
-console.log("Name:", myName);
+console.log("Name:", Name);
 console.log("Day:", currentDay);
 console.log("Mood:", mood);
 
