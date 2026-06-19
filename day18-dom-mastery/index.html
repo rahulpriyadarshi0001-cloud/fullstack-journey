@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Mastery | Rahul</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen gap-8">
+
+  <!-- Input Field for the Greeting -->
+  <div class="mb-8 flex flex-col items-center gap-2">
+    <label for="name-input" class="text-xs font-mono uppercase tracking-widest text-gray-400">Enter your name</label>
+    <input type="text" id="name-input" placeholder="Type your name..." 
+          class="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white focus:border-[#00E5FF] outline-none transition-all">
+  </div>
+  <h1 id="main-title" class="text-4xl font-bold">Hello, I am a Static Heading</h1>
+  
+  <div id="box" class="w-32 h-32 bg-blue-500 rounded-lg transition-all duration-300"></div>
+
+  <div class="flex gap-4">
+    <button id="text-btn" class="px-4 py-2 bg-emerald-500 rounded-lg font-bold">Change Text</button>
+    <button id="color-btn" class="px-4 py-2 bg-violet-500 rounded-lg font-bold">Change Color</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
