@@ -30,6 +30,7 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 16: ✅ JS Foundations - Variables (let/const), Data Types, and Basic Operators
 - Day 17: ✅ JS Power-Up - Arrow Functions, Map/Filter/Reduce, Destructuring, and Scope
 - Day 18: ✅ DOM Mastery - querySelector, addEventListener, and dynamic UI updates
+- Day 19: ✅ Async JS - Promises, Async/Await, Fetch API, and Live Server Integration
 
 ## About Me
 - Name: Rahul
