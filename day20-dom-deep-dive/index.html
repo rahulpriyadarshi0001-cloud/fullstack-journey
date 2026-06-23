@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM-Deep_Dive | Rahul</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white p-8 font-sans">
+
+  <div class="max-w-4xl mx-auto">
+    <header class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-cyan-400 mb-2">Dev-Project Tracker</h1>
+      <p class="text-gray-400">Manage your learning milestones with precision</p>
+    </header>
+
+    <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 mb-10 flex flex-wrap gap-4 items-end justify-center">
+      <div class="flex flex-col gap-2">
+        <label class="text-xs uppercase tracking-widest text-gray-500 font-mono">Project Name</label>
+        <input type="text" id="proj-name" placeholder="e.g. Weather App" 
+               class="bg-gray-800 border border-gray-700 p-2 rounded-lg outline-none focus:border-cyan-500 transition-all">
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <label class="text-xs uppercase tracking-widest text-gray-500 font-mono">Priority</label>
+        <select id="proj-priority" class="bg-gray-800 border border-gray-700 p-2 rounded-lg outline-none focus:border-cyan-500 transition-all">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <button id="add-proj-btn" class="px-6 py-2 bg-cyan-500 text-black font-bold rounded-lg hover:bg-cyan-400 transition-all">
+        Add Project
+      </button>
+    </div>
+
+    <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
