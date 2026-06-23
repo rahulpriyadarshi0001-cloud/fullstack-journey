@@ -10,7 +10,7 @@ addProjBtn.addEventListener('click' , () => {
   if(name === "") return alert("Enter a name!");
 
   const card = document.createElement('div');
-  card.className = "px-6 py-2 bg-cyan-500 text-black font-bold rounded-lg hover:bg-cyan-400 transition-all";
+  card.className = "bg-gray-900 p-6 rounded-2xl border border-gray-800 mb-10 flex flex-wrap gap-4 items-end justify-center";
   card.dataset.id = Date.now();
 
   const title = document.createElement('h3');
