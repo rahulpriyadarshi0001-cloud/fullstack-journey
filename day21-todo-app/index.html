@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow | Professional To-Do</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white min-h-screen flex items-center justify-center p-6">
+
+  <div class="w-full max-w-md bg-gray-900 border border-gray-800 rounded-3xl shadow-2xl overflow-hidden">
+    
+    
+    <div class="p-6 bg-gray-800/50 border-b border-gray-800">
+      <h1 class="text-2xl font-bold text-cyan-400">TaskFlow</h1>
+      <p class="text-gray-400 text-sm">Stay organized, stay productive.</p>
+    </div>
+
+    
+    <div class="p-6 flex gap-2">
+      <input type="text" id="task-input" placeholder="Add a new task..." 
+             class="flex-1 bg-gray-800 border border-gray-700 p-3 rounded-xl outline-none focus:border-cyan-500 transition-all">
+      <button id="add-btn" class="px-4 py-2 bg-cyan-500 text-black font-bold rounded-xl hover:bg-cyan-400 transition-all">
+        Add
+      </button>
+    </div>
+
+    
+    <ul id="task-list" class="p-6 pt-0 flex flex-col gap-3 max-h-[400px] overflow-y-auto">
+      
+    </ul>
+
+    
+    <div class="p-4 bg-gray-800/30 border-t border-gray-800 text-center text-xs text-gray-500 font-mono">
+      <span id="task-count">0</span> tasks remaining
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

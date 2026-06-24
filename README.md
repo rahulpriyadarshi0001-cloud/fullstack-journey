@@ -32,6 +32,7 @@ I am learning full-stack web development from scratch using a 60-day structured 
 - Day 18: ✅ DOM Mastery - querySelector, addEventListener, and dynamic UI updates
 - Day 19: ✅ Async JS - Promises, Async/Await, Fetch API, and Live Server Integration
 - Day 20: ✅ DOM Deep Dive - Traversal, Dynamic Element Creation, and Event Delegation
+- Day 21: ✅ Phase 2 Capstone - Persistent To-Do App using State-UI pattern & LocalStorage
 
 ## About Me
 - Name: Rahul
